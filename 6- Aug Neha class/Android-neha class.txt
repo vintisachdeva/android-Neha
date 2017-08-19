@@ -1,0 +1,66 @@
+Layout file(xml file--> to show data to user )
+Activity file(kotlin file--> logic and handling 
+				front end code )
+
+
+Layout file:
+xml
+
+<ParentTag>		Predefined Layouts
+
+<Child>			Predefined Widgets
+</Child>
+
+
+<Child>
+</Child>
+
+
+<Child>
+</Child>
+
+</ParentTag>
+
+Predefined Layout--> Relative Layout, Linear Layout, 					FrameLayout, etc
+
+Predefined Widgets--> Button, TextView, EditText, etc.
+
+
+Relative Layout--> works on relative positions. Relative positions-> parent and other child widgets.
+
+<Child>
+
+Layout--> Position of child element on screen
+
+Relative Layout-->
+
+
+center_horizontal = set horizontally
+center_vertical = set vertically
+center_inParent = both hori. and vertical
+
+margins:
+
+margin_left
+margin_right
+margin_top
+margin_bottom
+margin = combination of margin_left/right/top/bottom
+
+Align attributes:
+
+2 types:
+
+--> First type: id of the widget acc. to which you want to align the position. 
+
+eg--> to_endOf, to_rightOf, layout_below, layout_above
+
+--> Second type: id of the parent and acc. to that will align the position.
+
+These will work on True or False value:
+
+eg--> align_parentTop, alignParentStart, etc --> true or false
+
+Linear Layout:
+
+
