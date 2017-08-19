@@ -1,0 +1,30 @@
+RelativeLayout
+--------------->
+
+avoid nested layout 
+---------------------------------------------
+
+LinearLayout: data set either in horizontal manner or vertical manner
+
+attributes of LinearLayout:
+
+orientation:horizontal/vertical
+
+default orientation is horizontal
+
+Nested LinearLayout--> Must req of nested linear layout
+
+2 positioning attribute for linear layout:
+
+
+dependent on width and height of widget or layout
+
+android:gravity="inner elements"
+--> if applied on layout then will work on child widgets of layout and if applied on widget then will work on text of widgets.
+
+
+android:layout_gravity="apply on complete layout"
+
+
+android:layout_weight=""--> screen size to occupy
+corresponding width or height --> set 0dp
