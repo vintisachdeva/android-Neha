@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="science">Science</string>
+    <string-array name="question">
+        <item>"What is Force?"</item>
+        <item>"What is Kinetic Energy?"</item>
+        <item>"What is Potential Energy?"</item>
+    </string-array>
+
+    <string-array name="options">
+        <item>Pull or Push applied on an object</item>
+        <item>Only pull can be applied</item>
+        <item>Only push can be applied</item>
+        <item>None of above</item>
+        <item>Energy due to motion</item>
+        <item>Energy due to height</item>
+        <item>Energy due to position</item>
+        <item>None of above</item>
+        <item>Energy due to motion</item>
+        <item>Energy due to height</item>
+        <item>Energy due to position</item>
+        <item>None of above</item>
+    </string-array>
+
+    <string-array name="answer">
+        <item>Pull or Push applied on an object</item>
+        <item>Energy due to motion</item>
+        <item>Energy due to height</item>
+    </string-array>
+</resources>
